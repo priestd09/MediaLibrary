@@ -11,15 +11,6 @@ $('.nav li a').click(function() {
 	$('#'+ pageId).show();
 });
 
-$('#menuHome').click(function(){
-	hideAllPages();
-	$('#homePage').show();
-});
-$('#menuFilms').click(function(){
-	hideAllPages();
-	$('#filmsPage').show();
-});
-
 hideAllPages();
 if (window.location.hash.length <= 0) {
 	$('#homePage').show();
